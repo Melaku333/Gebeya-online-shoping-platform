@@ -1,0 +1,156 @@
+
+*{
+	
+	box-sizing: border-box;
+}
+
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+
+input {
+	display: block;
+	border: 1px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+
+label {
+	color: #888;
+	font-size: 18px;
+	padding: 10px;
+}
+
+
+button {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+    width: 110px;
+}
+
+button:hover{
+	opacity: .7;
+}
+.signupform{ 
+    margin-bottom:150px;
+   
+} 
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #444;
+}
+.ca:hover {
+	text-decoration: underline;
+} 
+
+form { margin-top: 130px;
+	width: 600px;
+    margin-bottom: 50px;
+	border: 2px solid #ccc;
+	padding: 30px;
+	background: #fff;
+	border-radius: 15px;
+}
+  
+
+        .all{
+            padding-left: 410;
+            margin-top: -900;
+        }
+.ras{
+          height:60;
+           background: #23252B;
+    opacity: .7;
+          border-bottom: 1px solid ;
+          border-color: rgba(255,0,0);
+          width:100%;
+      }
+      .ras>h2{
+          padding-left: 100;
+          color: white;
+        padding-top: 20;
+      }
+      .gon{
+          display: flex;
+          flex-direction: column;
+           background: #23252B;
+    opacity: .7;
+          width: 150;
+          height: 800px;
+          padding-top: 30;
+          padding-left: 13
+      }
+      .gon a{ color: white;
+          text-decoration: none;
+          height: 27;
+          margin-bottom: 10;
+          border-bottom: 1px solid;
+          border-color:white;
+          width: 120;
+          border-bottom-width:thin;
+          padding-left: 20
+      }
+      
+      .da a{ text-align: center;
+          width: 190;
+            
+          border: 1px solid;
+          margin-left: 5;
+          margin-right: 70;
+          
+          border-color: rgba(255,0,0,.5);
+         
+          border-radius: 20px;
+          padding-top: 15;
+          margin-top: -10;
+          padding-bottom: 15;
+          text-decoration: none;
+          color: black;
+          font-weight: bold;
+          font-size: 19;
+      }
+      
+      .da>a:hover{
+          background-color: rgba(255,0,0,.8);
+          transition: .6s;
+          float: right;
+      }
+        .adm{
+            color: red;
+        }
